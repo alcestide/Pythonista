@@ -1,3 +1,3 @@
-# TorchItUp
+# Pythonista
 
-Simply practicing Deep/Machine Learning and with PyTorch.
+Repository focused on Python coding/learning of different libraries.

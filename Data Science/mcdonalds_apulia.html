@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7f5579f69e49ab46e8fe8ea7882dd1cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7f5579f69e49ab46e8fe8ea7882dd1cf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7f5579f69e49ab46e8fe8ea7882dd1cf = L.map(
+                "map_7f5579f69e49ab46e8fe8ea7882dd1cf",
+                {
+                    center: [41.118707942656066, 16.867880656156167],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a29112591e95a0e679237d60a91d695d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var marker_d805f015baecf79b433c3c59505c5adc = L.marker(
+                [41.1248164135459, 16.8226841466712],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_d927978e3deda14ca43d355a512c0bef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d805f015baecf79b433c3c59505c5adc.setIcon(icon_d927978e3deda14ca43d355a512c0bef);
+        
+    
+        var popup_c12c48c4cd26a6c531b8af7c060bdd9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92838683edd3614353ca2065f0c98626 = $(`<div id="html_92838683edd3614353ca2065f0c98626" style="width: 100.0%; height: 100.0%;">McDonalds<br>Viale Europa, 3/C<br> Bari</div>`)[0];
+                popup_c12c48c4cd26a6c531b8af7c060bdd9f.setContent(html_92838683edd3614353ca2065f0c98626);
+            
+        
+
+        marker_d805f015baecf79b433c3c59505c5adc.bindPopup(popup_c12c48c4cd26a6c531b8af7c060bdd9f)
+        ;
+
+        
+    
+    
+            var marker_5292f543ede7ec33331ae1f3b0926dc7 = L.marker(
+                [41.1365238498231, 16.7646981514289],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_aaff667b93a38f351ba367d8a97041ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5292f543ede7ec33331ae1f3b0926dc7.setIcon(icon_aaff667b93a38f351ba367d8a97041ed);
+        
+    
+        var popup_1e457c0a2fd0e3b7a2dfd3ced3bb9bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a86acf6fde4b677a739fb2e1ee72f65f = $(`<div id="html_a86acf6fde4b677a739fb2e1ee72f65f" style="width: 100.0%; height: 100.0%;">McDonalds<br>Viale Enzo Ferrari<br> Bari</div>`)[0];
+                popup_1e457c0a2fd0e3b7a2dfd3ced3bb9bb3.setContent(html_a86acf6fde4b677a739fb2e1ee72f65f);
+            
+        
+
+        marker_5292f543ede7ec33331ae1f3b0926dc7.bindPopup(popup_1e457c0a2fd0e3b7a2dfd3ced3bb9bb3)
+        ;
+
+        
+    
+    
+            var marker_3f5307749921dbff8c00d8186bd32bec = L.marker(
+                [40.965866183302, 16.9262396331775],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_19ac460e3239031c7dd8d42990043600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f5307749921dbff8c00d8186bd32bec.setIcon(icon_19ac460e3239031c7dd8d42990043600);
+        
+    
+        var popup_2d5111ca010c71deba0380b577141fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a82be26db5d39781e0a7d4f083bd0ada = $(`<div id="html_a82be26db5d39781e0a7d4f083bd0ada" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Noicattaro, 2<br> Bari</div>`)[0];
+                popup_2d5111ca010c71deba0380b577141fe1.setContent(html_a82be26db5d39781e0a7d4f083bd0ada);
+            
+        
+
+        marker_3f5307749921dbff8c00d8186bd32bec.bindPopup(popup_2d5111ca010c71deba0380b577141fe1)
+        ;
+
+        
+    
+    
+            var marker_8f9f339e45cc9afde3c8a45e68d735ed = L.marker(
+                [41.1261139939979, 16.8724614522156],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_768911d57f850c221a5f8c8055a783f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8f9f339e45cc9afde3c8a45e68d735ed.setIcon(icon_768911d57f850c221a5f8c8055a783f0);
+        
+    
+        var popup_198f3c9216415c633237b257f397f2fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ff760c4981b2f001999e4ced0c4e3b7 = $(`<div id="html_6ff760c4981b2f001999e4ced0c4e3b7" style="width: 100.0%; height: 100.0%;">McDonalds<br>Corso Vittorio Emanuele<br> Bari</div>`)[0];
+                popup_198f3c9216415c633237b257f397f2fc.setContent(html_6ff760c4981b2f001999e4ced0c4e3b7);
+            
+        
+
+        marker_8f9f339e45cc9afde3c8a45e68d735ed.bindPopup(popup_198f3c9216415c633237b257f397f2fc)
+        ;
+
+        
+    
+    
+            var marker_8be8e7ea0ffbce91e37be77d13c3208a = L.marker(
+                [41.0891344637272, 16.8962158718103],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_97a02d7d370ac8aff899a740c2c06e15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8be8e7ea0ffbce91e37be77d13c3208a.setIcon(icon_97a02d7d370ac8aff899a740c2c06e15);
+        
+    
+        var popup_9680a758f9fa835abeb4ad40e5e60d7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c693a4d22a99c5a872fda7d2386cafa1 = $(`<div id="html_c693a4d22a99c5a872fda7d2386cafa1" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Caduti del Lavoro<br> Bari</div>`)[0];
+                popup_9680a758f9fa835abeb4ad40e5e60d7a.setContent(html_c693a4d22a99c5a872fda7d2386cafa1);
+            
+        
+
+        marker_8be8e7ea0ffbce91e37be77d13c3208a.bindPopup(popup_9680a758f9fa835abeb4ad40e5e60d7a)
+        ;
+
+        
+    
+    
+            var marker_126137698a1a2b8d5827c3ccb7258891 = L.marker(
+                [41.1193713259199, 16.8698608797595],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_47737dffb8b09f6435e2bb3de3fc2f77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_126137698a1a2b8d5827c3ccb7258891.setIcon(icon_47737dffb8b09f6435e2bb3de3fc2f77);
+        
+    
+        var popup_0248929b5475af2b2ea2af61fbdcb2dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4413294ad27aad4f29c199b5b69be10 = $(`<div id="html_d4413294ad27aad4f29c199b5b69be10" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Sparano da Bari, 155/157/159<br> Bari</div>`)[0];
+                popup_0248929b5475af2b2ea2af61fbdcb2dc.setContent(html_d4413294ad27aad4f29c199b5b69be10);
+            
+        
+
+        marker_126137698a1a2b8d5827c3ccb7258891.bindPopup(popup_0248929b5475af2b2ea2af61fbdcb2dc)
+        ;
+
+        
+    
+    
+            var marker_f0fbff29a3da6e08bf0810884e98f986 = L.marker(
+                [41.0906989110718, 16.8634865021405],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_e8866a6d72c366022771e6a7d9dee645 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0fbff29a3da6e08bf0810884e98f986.setIcon(icon_e8866a6d72c366022771e6a7d9dee645);
+        
+    
+        var popup_cebde2120aea5f24bb493a2943877381 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a53992637fbe8032da1cde4c8253f8d6 = $(`<div id="html_a53992637fbe8032da1cde4c8253f8d6" style="width: 100.0%; height: 100.0%;">McDonalds<br>Uscita 11 Tangenziale<br> Bari</div>`)[0];
+                popup_cebde2120aea5f24bb493a2943877381.setContent(html_a53992637fbe8032da1cde4c8253f8d6);
+            
+        
+
+        marker_f0fbff29a3da6e08bf0810884e98f986.bindPopup(popup_cebde2120aea5f24bb493a2943877381)
+        ;
+
+        
+    
+    
+            var marker_f98bede0332871ff72c2750b3e724d7e = L.marker(
+                [41.1001144887022, 16.8319355131939],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_e36da5ea7d29d1ff4a3c508174733745 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f98bede0332871ff72c2750b3e724d7e.setIcon(icon_e36da5ea7d29d1ff4a3c508174733745);
+        
+    
+        var popup_1f1a6b40b65bd2db0314df4331db7099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5ced721e61321800f02ca9cc4c9d60d = $(`<div id="html_d5ced721e61321800f02ca9cc4c9d60d" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Caterina, 17<br> Bari</div>`)[0];
+                popup_1f1a6b40b65bd2db0314df4331db7099.setContent(html_d5ced721e61321800f02ca9cc4c9d60d);
+            
+        
+
+        marker_f98bede0332871ff72c2750b3e724d7e.bindPopup(popup_1f1a6b40b65bd2db0314df4331db7099)
+        ;
+
+        
+    
+    
+            var marker_4b1465fd29945e5a506d1eeca8171b54 = L.marker(
+                [41.0831742170073, 16.9461335472278],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_8940cf47c1ac62d3df9a133c1785855c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4b1465fd29945e5a506d1eeca8171b54.setIcon(icon_8940cf47c1ac62d3df9a133c1785855c);
+        
+    
+        var popup_639f305a5a495dfdc528f796e5666d69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f088607858aa4a960dfed4cf5a700dae = $(`<div id="html_f088607858aa4a960dfed4cf5a700dae" style="width: 100.0%; height: 100.0%;">McDonalds<br>Centro commerciale BariBlu<br> Bari</div>`)[0];
+                popup_639f305a5a495dfdc528f796e5666d69.setContent(html_f088607858aa4a960dfed4cf5a700dae);
+            
+        
+
+        marker_4b1465fd29945e5a506d1eeca8171b54.bindPopup(popup_639f305a5a495dfdc528f796e5666d69)
+        ;
+
+        
+    
+    
+            var marker_eaa0f818c6ff5e972463c5675555c187 = L.marker(
+                [41.2054978732961, 16.5563497779114],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_375dfcd9db78cdf2b98432c5c2a34698 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eaa0f818c6ff5e972463c5675555c187.setIcon(icon_375dfcd9db78cdf2b98432c5c2a34698);
+        
+    
+        var popup_17f71f2d4990d02c87ccc908eaa5c3c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_378f290f687ac4c55f49a44172d88e0a = $(`<div id="html_378f290f687ac4c55f49a44172d88e0a" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Adriano Olivetti<br> Molfetta</div>`)[0];
+                popup_17f71f2d4990d02c87ccc908eaa5c3c3.setContent(html_378f290f687ac4c55f49a44172d88e0a);
+            
+        
+
+        marker_eaa0f818c6ff5e972463c5675555c187.bindPopup(popup_17f71f2d4990d02c87ccc908eaa5c3c3)
+        ;
+
+        
+    
+    
+            var marker_c4491962532cf71f8b83fb13399de3ed = L.marker(
+                [40.9593509942198, 17.2820439411267],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_145c4255639432da2d46637b9bbbbff4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c4491962532cf71f8b83fb13399de3ed.setIcon(icon_145c4255639432da2d46637b9bbbbff4);
+        
+    
+        var popup_fdf06658dee36693d1a67a1426f2dfd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06cf3319e8b367c95b75b4db96fe84bd = $(`<div id="html_06cf3319e8b367c95b75b4db96fe84bd" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Aldo Moro<br> Monopoli</div>`)[0];
+                popup_fdf06658dee36693d1a67a1426f2dfd5.setContent(html_06cf3319e8b367c95b75b4db96fe84bd);
+            
+        
+
+        marker_c4491962532cf71f8b83fb13399de3ed.bindPopup(popup_fdf06658dee36693d1a67a1426f2dfd5)
+        ;
+
+        
+    
+    
+            var marker_4546f778c39c3694ebbbd8d503ddcba6 = L.marker(
+                [40.3756886414264, 18.1472054895569],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_ae0cf7c3d8c99e6f9f582a4136d816d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4546f778c39c3694ebbbd8d503ddcba6.setIcon(icon_ae0cf7c3d8c99e6f9f582a4136d816d5);
+        
+    
+        var popup_c0d6bf2d7db8a9e528ff7c937a01ff2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c579c8bb03647f444b1be8543290b71 = $(`<div id="html_2c579c8bb03647f444b1be8543290b71" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Benzi<br> Lecce</div>`)[0];
+                popup_c0d6bf2d7db8a9e528ff7c937a01ff2f.setContent(html_2c579c8bb03647f444b1be8543290b71);
+            
+        
+
+        marker_4546f778c39c3694ebbbd8d503ddcba6.bindPopup(popup_c0d6bf2d7db8a9e528ff7c937a01ff2f)
+        ;
+
+        
+    
+    
+            var marker_c709e90f7cae39ef22a309289c41673e = L.marker(
+                [40.3538977324214, 18.1769214392786],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_fae488e83df85709c9f66bb467cb43df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c709e90f7cae39ef22a309289c41673e.setIcon(icon_fae488e83df85709c9f66bb467cb43df);
+        
+    
+        var popup_7b0282e7f430e82c78bd7966795052c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dfcdac7b8555c39ca6d6d17571dac30 = $(`<div id="html_2dfcdac7b8555c39ca6d6d17571dac30" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Salvatore Trinchese<br> Lecce</div>`)[0];
+                popup_7b0282e7f430e82c78bd7966795052c8.setContent(html_2dfcdac7b8555c39ca6d6d17571dac30);
+            
+        
+
+        marker_c709e90f7cae39ef22a309289c41673e.bindPopup(popup_7b0282e7f430e82c78bd7966795052c8)
+        ;
+
+        
+    
+    
+            var marker_25232c36662c93d7bdaaef146efa1798 = L.marker(
+                [41.3204304208792, 16.2571888374304],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_a8cf847334702afed66cc9f1ed751f2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_25232c36662c93d7bdaaef146efa1798.setIcon(icon_a8cf847334702afed66cc9f1ed751f2d);
+        
+    
+        var popup_392396216859366b679541c93ad80862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e6e470b9afff1776bde4493696aa60f = $(`<div id="html_1e6e470b9afff1776bde4493696aa60f" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Foggia, 42<br> Barletta</div>`)[0];
+                popup_392396216859366b679541c93ad80862.setContent(html_1e6e470b9afff1776bde4493696aa60f);
+            
+        
+
+        marker_25232c36662c93d7bdaaef146efa1798.bindPopup(popup_392396216859366b679541c93ad80862)
+        ;
+
+        
+    
+    
+            var marker_8a89137fa3ae33fd7da6ff0f8314476b = L.marker(
+                [41.2446797060104, 16.490371468114],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_64885be190c43c68afcbef3a2afb2504 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a89137fa3ae33fd7da6ff0f8314476b.setIcon(icon_64885be190c43c68afcbef3a2afb2504);
+        
+    
+        var popup_553771bbcbdf4681578360bd7c97fd0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fe97f29ed781bf25d2a019a3666bb0f = $(`<div id="html_6fe97f29ed781bf25d2a019a3666bb0f" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Bovio 312<br> Bisceglie</div>`)[0];
+                popup_553771bbcbdf4681578360bd7c97fd0f.setContent(html_6fe97f29ed781bf25d2a019a3666bb0f);
+            
+        
+
+        marker_8a89137fa3ae33fd7da6ff0f8314476b.bindPopup(popup_553771bbcbdf4681578360bd7c97fd0f)
+        ;
+
+        
+    
+    
+            var marker_f505f42b9ddea1169157086399033f72 = L.marker(
+                [40.6232736803286, 17.9159011202405],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_831295efcb5227c66555b66b560d42b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f505f42b9ddea1169157086399033f72.setIcon(icon_831295efcb5227c66555b66b560d42b2);
+        
+    
+        var popup_0b7408e091d028f2b3178ea91ad0d5ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68ec3b898ed27a3ea08eeddb31dd0287 = $(`<div id="html_68ec3b898ed27a3ea08eeddb31dd0287" style="width: 100.0%; height: 100.0%;">McDonalds<br>Viale Caduti di via Fani<br> Brindisi</div>`)[0];
+                popup_0b7408e091d028f2b3178ea91ad0d5ed.setContent(html_68ec3b898ed27a3ea08eeddb31dd0287);
+            
+        
+
+        marker_f505f42b9ddea1169157086399033f72.bindPopup(popup_0b7408e091d028f2b3178ea91ad0d5ed)
+        ;
+
+        
+    
+    
+            var marker_b9cbf8150443393fd917fb5112b49190 = L.marker(
+                [40.8430976356785, 17.3584857644177],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_c01523cbafb320c2fa4237d5e7b402e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b9cbf8150443393fd917fb5112b49190.setIcon(icon_c01523cbafb320c2fa4237d5e7b402e1);
+        
+    
+        var popup_ce7e456b5530521632679de14eff5640 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e1e1c3eabb7804a78caf1a712c1fb15 = $(`<div id="html_5e1e1c3eabb7804a78caf1a712c1fb15" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Roma, 327<br> Fasano</div>`)[0];
+                popup_ce7e456b5530521632679de14eff5640.setContent(html_5e1e1c3eabb7804a78caf1a712c1fb15);
+            
+        
+
+        marker_b9cbf8150443393fd917fb5112b49190.bindPopup(popup_ce7e456b5530521632679de14eff5640)
+        ;
+
+        
+    
+    
+            var marker_b67636f2b08d565abf9c8cad8ddab73c = L.marker(
+                [40.5801894505641, 17.8389037043421],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_3fde054341941ef70f3d9a5d37e9659a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b67636f2b08d565abf9c8cad8ddab73c.setIcon(icon_3fde054341941ef70f3d9a5d37e9659a);
+        
+    
+        var popup_daca8f92068388f695ce4a4b2b49d510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3274079ec32a59613244ecf769aecd55 = $(`<div id="html_3274079ec32a59613244ecf769aecd55" style="width: 100.0%; height: 100.0%;">McDonalds<br>Centro Commerciale Appia Antica<br> Mesagne</div>`)[0];
+                popup_daca8f92068388f695ce4a4b2b49d510.setContent(html_3274079ec32a59613244ecf769aecd55);
+            
+        
+
+        marker_b67636f2b08d565abf9c8cad8ddab73c.bindPopup(popup_daca8f92068388f695ce4a4b2b49d510)
+        ;
+
+        
+    
+    
+            var marker_8ca1159d08eaf1f6cf6363e9213a576d = L.marker(
+                [41.2666847611773, 15.9067909374304],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_2157f727633d0a871de1da78c8ac11f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ca1159d08eaf1f6cf6363e9213a576d.setIcon(icon_2157f727633d0a871de1da78c8ac11f7);
+        
+    
+        var popup_a51cb8e2bde20faf63f1f695578c7bff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f59c9397e5b0e0a547bd6487bc71129 = $(`<div id="html_0f59c9397e5b0e0a547bd6487bc71129" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Nizza<br> Cerignola</div>`)[0];
+                popup_a51cb8e2bde20faf63f1f695578c7bff.setContent(html_0f59c9397e5b0e0a547bd6487bc71129);
+            
+        
+
+        marker_8ca1159d08eaf1f6cf6363e9213a576d.bindPopup(popup_a51cb8e2bde20faf63f1f695578c7bff)
+        ;
+
+        
+    
+    
+            var marker_a207993be00da18dd3739e294f9c3661 = L.marker(
+                [41.4180462208136, 15.6553425704933],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_d741a94b8862e6f9bb306764fbe35fe3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a207993be00da18dd3739e294f9c3661.setIcon(icon_d741a94b8862e6f9bb306764fbe35fe3);
+        
+    
+        var popup_f619042cd0c0c5b45f366be63cf261b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36dff2c446c241835958341834676098 = $(`<div id="html_36dff2c446c241835958341834676098" style="width: 100.0%; height: 100.0%;">McDonalds<br>Centro Commerciale GrandaPulia<br> Foggia</div>`)[0];
+                popup_f619042cd0c0c5b45f366be63cf261b2.setContent(html_36dff2c446c241835958341834676098);
+            
+        
+
+        marker_a207993be00da18dd3739e294f9c3661.bindPopup(popup_f619042cd0c0c5b45f366be63cf261b2)
+        ;
+
+        
+    
+    
+            var marker_5a94b607cdc128bfd7d996fbb035bcd1 = L.marker(
+                [41.4512111883074, 15.5695174673273],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_6dc472b9b6c2920f9bf0c897125434e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a94b607cdc128bfd7d996fbb035bcd1.setIcon(icon_6dc472b9b6c2920f9bf0c897125434e1);
+        
+    
+        var popup_264df18800fd6c846ce2a14c215cc0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8ca001dff8e53a9e0624173bfbedd00 = $(`<div id="html_f8ca001dff8e53a9e0624173bfbedd00" style="width: 100.0%; height: 100.0%;">McDonalds<br>Corso del Mezzogiorno<br> Foggia</div>`)[0];
+                popup_264df18800fd6c846ce2a14c215cc0a5.setContent(html_f8ca001dff8e53a9e0624173bfbedd00);
+            
+        
+
+        marker_5a94b607cdc128bfd7d996fbb035bcd1.bindPopup(popup_264df18800fd6c846ce2a14c215cc0a5)
+        ;
+
+        
+    
+    
+            var marker_7fc8881ae1d0bdcb1759a835cef78166 = L.marker(
+                [41.447584056975, 15.5436746059601],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_d2f3e4b436cc89c5347ddbc1f52f4b0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7fc8881ae1d0bdcb1759a835cef78166.setIcon(icon_d2f3e4b436cc89c5347ddbc1f52f4b0a);
+        
+    
+        var popup_df7b757c78bf5212dbb039e686a75558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7813958f4d9d2a04a5c5676319c4d654 = $(`<div id="html_7813958f4d9d2a04a5c5676319c4d654" style="width: 100.0%; height: 100.0%;">McDonalds<br>Viale Degli Aviatori<br> Foggia</div>`)[0];
+                popup_df7b757c78bf5212dbb039e686a75558.setContent(html_7813958f4d9d2a04a5c5676319c4d654);
+            
+        
+
+        marker_7fc8881ae1d0bdcb1759a835cef78166.bindPopup(popup_df7b757c78bf5212dbb039e686a75558)
+        ;
+
+        
+    
+    
+            var marker_05b0e974cd81cd355f98b5ac9955e1e6 = L.marker(
+                [40.4613385521374, 17.299921344823],
+                {}
+            ).addTo(map_7f5579f69e49ab46e8fe8ea7882dd1cf);
+        
+    
+            var icon_cb1ac80a59f1cc87440b066251a1814a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05b0e974cd81cd355f98b5ac9955e1e6.setIcon(icon_cb1ac80a59f1cc87440b066251a1814a);
+        
+    
+        var popup_f29daea36efdce9e7e9ef8c911ce3953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d2a396628679730e1edcc5bd8239810 = $(`<div id="html_1d2a396628679730e1edcc5bd8239810" style="width: 100.0%; height: 100.0%;">McDonalds<br>Via Consiglio 115<br> Taranto</div>`)[0];
+                popup_f29daea36efdce9e7e9ef8c911ce3953.setContent(html_1d2a396628679730e1edcc5bd8239810);
+            
+        
+
+        marker_05b0e974cd81cd355f98b5ac9955e1e6.bindPopup(popup_f29daea36efdce9e7e9ef8c911ce3953)
+        ;
+
+        
+    
+</script>
+</html>

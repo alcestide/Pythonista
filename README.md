@@ -1,3 +1,5 @@
-# Pythonista
+# Sci-Analytics
 
-Repository focused on Python coding/learning of different libraries.
+## Data Science/Analysis Practice Repository
+
+

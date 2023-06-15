@@ -7,7 +7,7 @@ import pandas as pd
 #Change to default browser
 pio.renderers.default = "chromium"
 
-df = pd.read_csv(r"humandevelopment.csv")
+df = pd.read_csv(r"./Datasets/humandevelopment.csv")
 fig = make_subplots(rows=2, cols=2)
 values = list(range(200))
 

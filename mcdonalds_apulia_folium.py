@@ -1,7 +1,7 @@
 import pandas
 import folium
 
-places = pandas.read_csv("mcdonalds_apulia.csv",
+places = pandas.read_csv("./Datasets/mcdonalds_apulia.csv",
                          encoding='utf-8')
 
 m = folium.Map(location=[41.118707942656066,
